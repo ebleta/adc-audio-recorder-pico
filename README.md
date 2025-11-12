@@ -26,7 +26,13 @@ A Python script is included to read data over USB serial and save it as a 16-bit
    - Edit script to set the correct serial port (e.g. `COM4`, `/dev/ttyUSB0`, etc.).
    - Run the script:
      ```bash
-     python wdma.py
+     python withdma.py
+     ```
+
+     or
+
+     ```bash
+     python nodma.py
      ```
 
 4. **Play Back the Audio**
