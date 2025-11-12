@@ -23,10 +23,10 @@ A Python script is included to read data over USB serial and save it as a 16-bit
    - Select **Raspberry Pi Pico** as the board and upload the sketch.
 
 3. **Run the Python Recorder**
-   - Edit `python/record_audio.py` to set the correct serial port (e.g. `COM4`, `/dev/ttyUSB0`, etc.).
+   - Edit script to set the correct serial port (e.g. `COM4`, `/dev/ttyUSB0`, etc.).
    - Run the script:
      ```bash
-     python record_audio.py
+     python wdma.py
      ```
 
 4. **Play Back the Audio**
